@@ -1,4 +1,5 @@
 # Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,7 +28,7 @@ $(VENDOR_BLOB_FOLDER)/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit
 # system/lib/hw (from targa)
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/hw/audio.primary.omap4.so:/system/lib/hw/audio.primary.omap4.so \
-$(VENDOR_BLOB_FOLDER)/lib/hw/gps.targa.so:/system/lib/hw/gps.solana.so
+$(VENDOR_BLOB_FOLDER)/lib/hw/gps.vendor.so:/system/lib/hw/gps.vendor.so
 
 # RIL files (from solana 5.7.906)
 PRODUCT_COPY_FILES += \
